@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>BulletChain</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="app.css" />
+    <script src="bundle.js"></script>
+    <script src="app.js"></script>
+    <script>
+      import listing from "./components/listing";
+    </script>
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="panel-landing" id="section-1">
+          <img
+            src="BulletChainLogo.png"
+            alt="Bullet Chain Logo"
+            style="width:50px;height:50px;"
+          />
+          <h1 class="landing-heading">BulletChain</h1>
+          <p class="lead">
+            <a href="#" class="btn btn-primary btn-lg" id="signin-button">
+              Sign In with Blockstack
+            </a>
+          </p>
+        </div>
+        <div class="panel-welcome hide" id="section-2">
+          <div class="avatar-section">
+            <img
+              src="https://s3.amazonaws.com/onename/avatar-placeholder.png"
+              class="img-rounded avatar"
+              id="avatar-image"
+            />
+          </div>
+          <h1>Hello, <span id="heading-name">Anonymous</span>!</h1>
+          <p class="lead">
+            <a href="#" class="btn btn-primary btn-lg" id="gotolistings-button">
+              Go To Listings
+            </a>
+            <a href="#" class="btn btn-primary btn-lg" id="signout-button">
+              Logout
+            </a>
+          </p>
+        </div>
+        <div class="panel-welcome hide" id="section-3">
+          <!-- Bootstrap JS -->
+          <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+            integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"
+          ></script>
+          <img
+            src="BulletChainLogo.png"
+            alt="Bullet Chain Logo"
+            style="width:10vw;height:10vw;"
+          />
+          <h1>Welcome to BulletChain</h1>
+          <div id="wrapper">
+            <p>
+              This page will allow users to assign ERC-721 token to their
+              registered firearms and allow government approved users to
+              transfer tokens together with physical guns.
+            </p>
+            <a
+              class="btn btn-primary"
+              value="Refresh Page"
+              onClick="window.location.reload();"
+              >Go Back</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

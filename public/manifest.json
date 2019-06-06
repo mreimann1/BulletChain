@@ -1,0 +1,12 @@
+{
+  "name": "BulletChain",
+  "start_url": "localhost:5000",
+  "description": "A simple demo of Blockstack Auth",
+  "icons": [
+    {
+      "src": "http://icons.iconarchive.com/icons/hopstarter/soft-scraps/256/Button-Blank-Red-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
